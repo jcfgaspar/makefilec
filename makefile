@@ -77,5 +77,10 @@ file:
 remove:
 	@ rm include/project/$$name.h
 	@ rm source/$$name.c
-
+	
+dir:
+	@ mkdir include
+	@ mkdir ./include/project
+	@ mkdir source
+	@ touch main.c
 	
